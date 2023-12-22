@@ -1,3 +1,4 @@
+#PART B-UndoomedDiceTransformer
 def undoom_dice(die_a, die_b):
     scaling_factor = sum(die_a) / sum(die_b)
     new_die_a = [min(4, spots) for spots in die_a]
