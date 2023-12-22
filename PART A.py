@@ -1,6 +1,5 @@
-die_faces = [1, 2, 3, 4, 5, 6]
-
 # Part-A: Total Combinations
+die_faces = [1, 2, 3, 4, 5, 6]
 total_combinations = len(die_faces) ** 2
 print("Total Combinations:", total_combinations)
 
